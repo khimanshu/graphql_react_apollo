@@ -35,7 +35,7 @@ class BookList extends Component {
                     return (
                         <ul>
                             {
-                            return data.books.map((b) => {
+                            data.books.map((b) => {
                                 return <div key={b.id}>{b.title}</div>
                             })
                             }
